@@ -16,36 +16,36 @@
                 </li>
                 
                 <li>
-                    <a class="menu-ativo" href="{{ route('home')}}">Sobre</a>
+                    <a class="menu-ativo" href="{{ route('sobre')}}">Sobre</a>
                 </li>
 
                 <li>
-                    <a class="menu-ativo" href="{{ route('home')}}">Cardápio</a>
+                    <a class="menu-ativo" href="{{ route('cardapio')}}">Cardápio</a>
                 </li>
 
                 <li>
-                    <a class="menu-ativo" href="{{ route('home')}}">Eventos</a>
+                    <a class="menu-ativo" href="{{ route('evento')}}">Eventos</a>
                 </li>
 
                 <li>
-                    <a class="menu-ativo" href="{{ route('home')}}">Contato</a>
+                    <a class="menu-ativo" href="{{ route('contato')}}">Contato</a>
                 </li>
             </ul>
 
             <div>
                 <!-- LOGIN -->
                 <a href="#" class="login">
-                    <img src="assets/login.png" alt="Login Casa do Barista">
+                    <img src="{{ asset('barista/assets/login.png')}}" alt="Login Casa do Barista">
                 </a>
 
                 <!-- Rede Social  | ul>li*3>a>img -->
                 <ul class="redeSocial">
-                    <li><a href="#" target="_blank"><img src="assets/facebook-24.png"
+                    <li><a href="{{ route('home')}}" target="_blank"><img src="{{ asset('barista/assets/linkedin-24.png')}}"
                                 alt="Logo Facebook - Casa do Barista"></a></li>
-                    <li><a href="#" target="_blank"><img src="assets/instagram-24.png"
+                    <li><a href="{{ route('home')}}" target="_blank"><img src="{{ asset('barista/assets/instagram-24.png')}}"
                                 alt="Logo Instagram - Casa do Barista"></a></li>
                     <li><a href="https://wa.me/5511988662233?text=Ol%C3%A1%21%20Gostaria%20de%20falar%20com%20a%20Casa%20Do%20Barista%20%E2%98%95"
-                            target="_blank"><img src="assets/whatsapp-24.png" alt="Logo WhastApp - Casa do Barista"></a>
+                            target="_blank"><img src="{{ asset('barista/assets/whatsapp-24.png')}}" alt="Logo WhastApp - Casa do Barista"></a>
                     </li>
                 </ul>
             </div>

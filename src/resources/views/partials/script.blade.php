@@ -3,10 +3,10 @@
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
     <!-- ANIMAÇÃO SLICK -->
-    <script src=" {{asset('js/slick.min.js') }}"></script>
+    <script src=" {{asset('barista/js/slick.min.js') }}"></script>
 
     <!-- ANIMAÇÃO WOW -->
-    <script src="{{asset('js/wow.min.js') }}"></script>
+    <script src="{{asset('barista/js/wow.min.js') }}"></script>
 
     <!-- MEU SCRIPT (ANIMAÇÃO) -->
-    <script src="{{asset('js/script.js') }}"></script>
+    <script src="{{asset('barista/js/script.js') }}"></script>

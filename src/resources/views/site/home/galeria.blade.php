@@ -5,17 +5,17 @@
             </header>
 
             <div class="itensGaleria">
-                <img src="assets/galeria01.png" alt="Galeria - Casa do Barista">
-                <img src="assets/galeria02.png" alt="Galeria - Casa do Barista">
-                <img src="assets/galeria03.png" alt="Galeria - Casa do Barista">
-                <img src="assets/galeria04.png" alt="Galeria - Casa do Barista">
-                <img src="assets/galeria05.png" alt="Galeria - Casa do Barista">
-                <img src="assets/galeria06.png" alt="Galeria - Casa do Barista">
-                <img src="assets/galeria01.png" alt="Galeria - Casa do Barista">
-                <img src="assets/galeria02.png" alt="Galeria - Casa do Barista">
-                <img src="assets/galeria03.png" alt="Galeria - Casa do Barista">
-                <img src="assets/galeria04.png" alt="Galeria - Casa do Barista">
-                <img src="assets/galeria05.png" alt="Galeria - Casa do Barista">
-                <img src="assets/galeria06.png" alt="Galeria - Casa do Barista">
+                <img src="{{ asset('barista/assets/galeria01.png')}}" alt="Galeria - Casa do Barista">
+                <img src="{{ asset('barista/assets/galeria02.png')}}" alt="Galeria - Casa do Barista">
+                <img src="{{ asset('barista/assets/galeria03.png')}}" alt="Galeria - Casa do Barista">
+                <img src="{{ asset('barista/assets/galeria04.png')}}" alt="Galeria - Casa do Barista">
+                <img src="{{ asset('barista/assets/galeria05.png')}}" alt="Galeria - Casa do Barista">
+                <img src="{{ asset('barista/assets/galeria06.png')}}" alt="Galeria - Casa do Barista">
+                <img src="{{ asset('barista/assets/galeria01.png')}}" alt="Galeria - Casa do Barista">
+                <img src="{{ asset('barista/assets/galeria02.png')}}" alt="Galeria - Casa do Barista">
+                <img src="{{ asset('barista/assets/galeria03.png')}}" alt="Galeria - Casa do Barista">
+                <img src="{{ asset('barista/assets/galeria04.png')}}" alt="Galeria - Casa do Barista">
+                <img src="{{ asset('barista/assets/galeria05.png')}}" alt="Galeria - Casa do Barista">
+                <img src="{{ asset('barista/assets/galeria06.png')}}" alt="Galeria - Casa do Barista">
             </div>
         </section>

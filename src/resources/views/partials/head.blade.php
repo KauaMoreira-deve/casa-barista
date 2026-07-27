@@ -44,18 +44,19 @@
     <title>CASA DO BARISTA</title>
 
     <!-- RESET LIMPA OS ESTILOS DO HTML -->
-    <link rel="stylesheet" href="{{ asset('barista/css/reset.css')}}">
+    <link rel="stylesheet" href="{{ asset('barista/css/reset.css') }}">
 
     <!-- ANIMAÇÃO SLICK -->
-    <link rel="stylesheet" href="{{ asset('barista/css/slick.css')}}">
-    <link rel="stylesheet" href="{{ asset('barista/css/slick-theme.css')}}">
+    <link rel="stylesheet" href="{{ asset('barista/css/slick.css') }}">
+    <link rel="stylesheet" href="{{ asset('barista/css/slick-theme.css') }}">
 
     <!-- ANIMAÇÃO - ANIMATE CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 
     <!-- ESTILO DO BARISTA - APLICA ESTILO NO HTML -->
-    <link rel="stylesheet" href="{{ asset('barista/css/estilo.css')}}">
-    <link rel="stylesheet" href="{{ asset('barista/css/responsivo.css')}}">
+    <link rel="stylesheet" href="{{ asset('barista/css/estilo.css') }}">
+    <link rel="stylesheet" href="{{ asset('barista/css/responsivo.css') }}">
+    
 
 </head>
