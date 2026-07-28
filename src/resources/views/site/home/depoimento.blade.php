@@ -23,7 +23,11 @@
             <article>
                 <div class="estrela">
                     <ul>
-                        <li><img src="{{ asset('barista/assets/star.svg')}}" alt="Estrela Depo"></li>
+                        @for($i = 1; $i <= 5; $i++)
+                        <li class="{{ $i <= $estrela ? 'estrela-ativa' : 'estrela-inativa'}}">
+                            <img src="{{ asset('barista/assets/star.svg')}}" alt="{{ $i <= $estrela ? 'Estrela preenchida' : 'estrela Nao preenchida'}}">
+                        </li>
+                        @endfor
                     </ul>
                 </div>
                 <div class="dadosDepo">

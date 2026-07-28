@@ -16,7 +16,9 @@ class HomeController extends Controller{
         //dd($listaBanner);
 
         //Buscar os depoimentos APROVADOS junto com os dados dos clientes
-        $listaDepo = Depoimento::with('DepoimentoCliente')->orderByDesc('id_depoimentos')->get();
+        $listaDepo = Depoimento::with('DepoimentoCliente')
+                                ->where('status_depoimentos', 'APROVADO')
+                                ->orderByDesc('id_depoimentos')->get();
        
         //dd($listaDepo->toArray());
         return view('site.home.home', compact('listaBanner', 'listaDepo'));
