@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Site;
 use App\Http\Controllers\Controller;
 use App\Models\Banner;
 use App\Models\Depoimento;
+use App\Models\Galeria;
 
 class HomeController extends Controller{
     //Método Home = carregar index(home)
@@ -19,10 +20,14 @@ class HomeController extends Controller{
         $listaDepo = Depoimento::with('DepoimentoCliente')
                                 ->where('status_depoimentos', 'APROVADO')
                                 ->orderByDesc('id_depoimentos')->get();
+
+        $listaGaleria = Galeria::where('status_galeria', 'ATIVO')->inRandomOrder()->get();
        
         //dd($listaDepo->toArray());
-        return view('site.home.home', compact('listaBanner', 'listaDepo'));
-    
+        return view('site.home.home', compact('listaBanner', 'listaDepo', 'listaGaleria'));
+
+       
+        
     }
 
 
