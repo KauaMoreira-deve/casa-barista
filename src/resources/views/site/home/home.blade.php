@@ -17,23 +17,23 @@
         <!-- Fim Sessão Destaque -->
 
         <!-- INÍCIO DA SEÇÃO CARDÁPIO -->
-            @include('site.home.cardapio')
+        @include('site.home.cardapio')
         <!-- FIM DA SEÇÃO CARDÁPIO -->
 
         <!-- INÍCIO DA SEÇÃO EQUIPE -->
-            @include('site.home.equipe')
+        @include('site.home.equipe')
         <!-- FIM DA SEÇÃO EQUIPE -->
             
         <!-- INÍCIO DA SEÇÃO EVENTO -->
-            @include('site.home.eventos')
+        @include('site.home.eventos')
         <!-- FIM DA SEÇÃO EVENTO -->
 
         <!-- INÍCIO DA SEÇÃO GALERIA -->
-            @include('site.home.galeria')
+        @include('site.home.galeria')
         <!-- FIM DA SEÇÃO GALERIA -->
 
         <!-- INÍCIO DA SEÇÃO DEPOIMENTO -->
-            @include('site.home.depoimento')
+        @include('site.home.depoimento')
         <!-- FIM DA SEÇÃO DEPOIMENTO -->
 
 
