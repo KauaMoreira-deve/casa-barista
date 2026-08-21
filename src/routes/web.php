@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\Dash\DashController;
+use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Site\CardapioController;
 use App\Http\Controllers\Site\ContatoController;
 use App\Http\Controllers\Site\EventoController;
@@ -15,4 +15,4 @@ Route::get('/cardapio', [CardapioController::class, 'cardapio'])->name('cardapio
 Route::get('/cardapio/categoria/{idCategoria}', [CardapioController::class, 'cardapio'])->name('cardapio.categoria');
 Route::get('/evento', [EventoController::class, 'evento'])->name('evento');
 Route::get('/contato', [ContatoController::class, 'contato'])->name('contato');
-Route::get('/dash', [DashController::class, 'dash'])->name('dash');
+Route::get('/admin', [AdminController::class, 'admin'])->name('admin');

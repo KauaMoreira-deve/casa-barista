@@ -1,0 +1,104 @@
+/*
+=========================
+FONTES GOOGLE E LOCAL
+=========================
+*/
+
+/*GOOGLE */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*LOCAL */
+@font-face {
+  font-family: "Geometry Soft Pro-Bold N";
+  src: url(../fonts/Geometry-Soft\ Pro-Bold\ N.otf) format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+:root {
+
+  /* CORES */
+  --cor-fundo-1: #F3E8DC;
+  --cor-fundo-2: #2e2e2e;
+  --cor-primaria: #4b2e1e;
+  --cor-secundaria-1: #8b5e3c;
+  --cor-secundaria-2: #b56a34;
+  --cor-destaque: #5c6945;
+
+  --cor-texto: #2e2e2e;
+  --cor-titulo: #4b2e1e;
+  --cor-subtitulo: #8b5e3c;
+
+
+  /* FONTES */
+  --fonte-texto: "Bebas Neue", sans-serif;
+  --fonte-titulo: "Geometry Soft Pro-Bold N";
+
+}
+
+
+/* header */
+.app-header{
+  background-color: #000000 !important;
+}
+
+.navbar-expand .navbar-nav .nav-link{
+  color: #833900 !important;
+  font-family: var(--fonte-texto) !important;
+}
+
+/* main */
+
+.app-main{
+  background-color: #fff7ee !important;
+}
+
+.sidebar-brand .brand-link .brand-image {
+  width: 200px;
+}
+
+.bg-body-secondary{
+  background-color: #000000 !important;
+}
+
+.sidebar-menu .nav-link p{
+  color: #833900 !important;
+  font-family: var(--fonte-texto) !important;
+}
+
+.sidebar-wrapper .nav-icon{
+  background-color: #833900 !important;
+  border-radius: 55px;
+}
+
+
+.small-box > .inner{
+  background-color: #833900 !important;
+  color: #fff7ee !important;
+}
+
+.small-box > .small-box-footer{
+  background-color: #411c00 !important;
+  color: #fff7ee !important;
+}
+
+ .small-box p, .small-box .p{
+  color: #fff7ee !important;
+  font-family: var(--fonte-texto) !important;
+}
+
+.small-box h3, .small-box .h3{
+  font-family: var(--fonte-titulo) !important;
+}
+
+.h1-main, .fs-3{
+  font-family: var(--fonte-titulo) !important;
+  color: var(--cor-titulo) !important;
+}
+
+/* footer */
+
+.app-footer{
+  background-color: #000000 !important;
+}

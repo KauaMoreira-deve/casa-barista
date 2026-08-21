@@ -3,13 +3,13 @@
 <head>
      {{-- aqui entra o partial de head --}}
 
-    @include('partials.head')
+    @include('partials.partialsHome.head')
 </head>
 
 
 <body>
     {{-- //Cabeçalho --}}
-    @include('partials.topo')
+    @include('partials.partialsHome.topo')
 
     {{-- //Main --}}
         <main>
@@ -17,11 +17,11 @@
             @yield('content')
         </main>
     {{-- //Footer --}}
-    @include('partials.rodape')
+    @include('partials.partialsHome.rodape')
 
     {{-- //scripts --}}
 
-    @include('partials.script')
+    @include('partials.partialsHome.script')
 </body>
 
 </html>
