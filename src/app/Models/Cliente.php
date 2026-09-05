@@ -25,4 +25,9 @@ Class Cliente extends Model{
     public function ClienteDepoimento(){
         return $this->hasMany(Depoimento::class, 'id_cliente', 'id_cliente');
     }
+
+    public function VendaCliente(){
+        return $this->belongsTo(Vendas::class, 'id_cliente', 'id_cliente');
+
+     }
 }     

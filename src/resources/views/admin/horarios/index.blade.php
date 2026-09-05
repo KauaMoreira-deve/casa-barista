@@ -2,6 +2,6 @@
 
 @section('content')
 
-<h1 class="h1-main">DASHBOARD</h1>
-    
+    @include('admin.horarios.listaHorarios')
+
 @endsection

@@ -15,6 +15,7 @@
         <main>
             {{-- // area de conteudo --}}
             @yield('content')
+            
         </main>
     {{-- //Footer --}}
     @include('partials.partialsHome.rodape')

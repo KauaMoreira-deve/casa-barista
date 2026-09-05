@@ -47,7 +47,7 @@
               <li class="nav-item menu-open">
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="./index.html" class="nav-link active">
+                    <a href="{{ route('admin') }}" class="nav-link active">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Dashboard</p>
                     </a>
@@ -67,13 +67,13 @@
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="./widgets/small-box.html" class="nav-link">
+                    <a href="{{ route('admin.produtos.index') }}" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Produtos</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="./widgets/info-box.html" class="nav-link">
+                    <a href="{{ route('admin.categoria.index') }}" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Categorias</p>
                     </a>
@@ -98,9 +98,16 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="./UI/icons.html" class="nav-link">
+                    <a href="{{ route('admin.cliente.index') }}" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Clientes</p>
+                    </a>
+                  </li>
+
+                   <li class="nav-item">
+                    <a href="{{ route('admin.usuarios.index') }}" class="nav-link">
+                      <i class="nav-icon bi bi-circle"></i>
+                      <p>Usuários</p>
                     </a>
                   </li>
 
@@ -118,36 +125,43 @@
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="./forms/elements.html" class="nav-link">
+                    <a href="{{ route('admin.banner.index') }}" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Banner</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="./forms/layout.html" class="nav-link">
+                    <a href="{{ route('admin.galeria.index') }}" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Galeria</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="./forms/validation.html" class="nav-link">
+                    <a href="{{ route('admin.depoimentos.index') }}" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Depoimentos</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="./forms/wizard.html" class="nav-link">
+                    <a href="{{ route('admin.linhaTempo.index') }}" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Linha do tempo</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="./forms/advanced.html" class="nav-link">
+                    <a href="{{ route('admin.news.index') }}" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Newslatter</p>
                     </a>
                   </li>
                  
+                  <li class="nav-item">
+                    <a href="{{ route('admin.horarios.index') }}" class="nav-link">
+                      <i class="nav-icon bi bi-circle"></i>
+                      <p>Horários</p>
+                    </a>
+                  </li>
+
                 </ul>
               </li>
               

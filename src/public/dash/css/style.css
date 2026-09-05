@@ -102,3 +102,85 @@ FONTES GOOGLE E LOCAL
 .app-footer{
   background-color: #000000 !important;
 }
+
+.badge.text-bg-danger.inativo{
+  background-color: #ff0000 !important;
+}
+
+.card{
+  background-color: #833900 !important;
+}
+.cont-linha td{
+  background-color: #ffdcc2 !important;
+}
+
+th{
+  background-color: #ffdabe !important;
+}
+
+.fw-medium{
+  color: #713100 !important;
+  font-family: var(--fonte-texto) ;
+}
+
+.card-header .card-title,
+.card-header > .row > [class*="col"],
+.card-footer .text-body-secondary,
+.card-footer #gallery-count {
+  color: #fff0e4 !important;
+  font-family: var(--fonte-texto) ;
+}
+
+/* As tabelas administrativas usam fundo claro: texto escuro garante contraste. */
+.table thead th {
+  color: #4b2e1e !important;
+  font-family: var(--fonte-texto);
+}
+
+.table tbody td {
+  color: #2e2e2e !important;
+}
+
+.card-danger, .bg-danger, .text-bg-danger {
+  background-color: #833900 !important;
+  color: #fff7ee !important;
+  font-family: var(--fonte-texto) ;
+}
+
+.page-link.active, .active > .page-link{
+  background-color: #833900;
+  border-color: #833900 ;
+}
+
+.fs-3{
+  font-family: var(--fonte-titulo) !important;
+  color: var(--cor-titulo) ;
+}
+
+.text-bg-primary{
+  background-color: #833900 !important;
+  color: #fff7ee !important;
+  font-family: var(--fonte-texto) ;
+}
+
+.color-fundo{
+  background-color: #ffe8cd !important;
+}
+
+.color-text{
+  color: #ffdfc7 !important;
+  font-family: var(--fonte-texto) ;
+}
+
+.btn-color{
+  background-color: #833900 !important;
+  color: #fff7ee !important;
+  font-family: var(--fonte-texto) ;
+  border-color: #ffdbbf !important;
+}
+
+.btn-color:hover{
+  background-color: #411c00 !important;
+  color: #fff7ee !important;
+  font-family: var(--fonte-texto) ;
+}
