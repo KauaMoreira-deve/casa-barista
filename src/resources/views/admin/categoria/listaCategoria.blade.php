@@ -196,64 +196,52 @@
             >
               <div class="modal-dialog">
                 <div class="modal-content">
-                  <form>
+                  <form action="{{ route('categoria.store') }}" method="POST" @csrf>
+                    
+
                     <div class="modal-header">
+
                       <h5 class="modal-title" id="modal-add-user-label">Add new user</h5>
+
                       <button
                         type="button"
                         class="btn-close"
                         data-bs-dismiss="modal"
                         aria-label="Close"
                       ></button>
+
                     </div>
+
                     <div class="modal-body">
                       <div class="mb-3">
-                        <label for="new-user-name" class="form-label"> Full name </label>
+                        <label for="new-user-name" class="form-label"> Nome categoria </label>
                         <input
                           type="text"
                           class="form-control"
+                          name="nome_categoria"
                           id="new-user-name"
-                          placeholder="e.g. Jane Doe"
+                          placeholder="EX: Bebidas"
                           required
                         />
                       </div>
-                      <div class="mb-3">
-                        <label for="new-user-email" class="form-label"> Email address </label>
-                        <input
-                          type="email"
-                          class="form-control"
-                          id="new-user-email"
-                          placeholder="name@example.com"
-                          required
-                        />
-                        <div class="form-text">The invitation will be sent to this address.</div>
-                      </div>
+
+              
                       <div class="mb-3">
                         <label for="new-user-role" class="form-label"> Role </label>
-                        <select id="new-user-role" class="form-select">
-                          <option selected>Subscriber</option>
-                          <option>Author</option>
-                          <option>Editor</option>
-                          <option>Administrator</option>
+                        <select id="new-user-role" class="form-select" name="status_categoria" required>
+                          <option selected>Status da categoria</option>
+                          <option value="ATIVO">ATIVO</option>
+                          <option value="INATIVO">INATIVO</option>
+                         
                         </select>
                       </div>
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="checkbox"
-                          id="new-user-welcome"
-                          checked
-                        />
-                        <label class="form-check-label" for="new-user-welcome">
-                          Send a welcome email with login details
-                        </label>
-                      </div>
+                     
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
                         Cancel
                       </button>
-                      <button type="submit" class="btn btn-primary">Create user</button>
+                      <button type="submit" class="btn btn-primary">Criar categoria</button>
                     </div>
                   </form>
                 </div>

@@ -70,7 +70,7 @@
                             data-bs-target="#modal-add-user"
                           >
                             <i class="bi bi-person-plus-fill me-1" aria-hidden="true"> </i>
-                            Novo cliente
+                            Novo produto
                           </button>
                         </div>
                       </div>

@@ -37,6 +37,32 @@ FONTES GOOGLE E LOCAL
 
 }
 
+/* BANNER */
+.banner-upload {
+    width: 360px;
+    height: 180px;
+    border: 2px dashed #aaa;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.banner-upload img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.arquivo {
+    padding: 12px 20px;
+    background: #222;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 400px;
+}
+ 
+ 
+/* FIM BANNER */
 
 /* header */
 .app-header{
